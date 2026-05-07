@@ -1,0 +1,75 @@
+{"timestamp":"2026-05-01T01:20:59.520733Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-05-01T01:20:59.521053Z","level":"info","event":"Filling up the DagBag from /home/sharaq/airflow/dags/test_srppac.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-05-01T01:21:00.011462Z","level":"error","event":"WARNING: Using incubator modules: jdk.incubator.vector","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.356241Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.360161Z","level":"error","event":"26/05/01 10:21:00 WARN Utils: Your hostname, gpuana01, resolves to a loopback address: 127.0.1.1; using 192.168.0.3 instead (on interface enp5s0)","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.361553Z","level":"error","event":"26/05/01 10:21:00 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.532518Z","level":"error","event":"26/05/01 10:21:00 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.585470Z","level":"error","event":"Using Spark's default log4j profile: org/apache/spark/log4j2-defaults.properties","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.585834Z","level":"error","event":"Setting default log level to \"WARN\".","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.585885Z","level":"error","event":"To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.682948Z","level":"error","event":"WARNING: All log messages before absl::InitializeLog() is called are written to STDERR","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.683053Z","level":"error","event":"E0000 00:00:1777598460.682796 3338740 instrument.cc:563] Metric with name 'grpc.resource_quota.calls_dropped' registered more than once. Ignoring later registration.","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.683100Z","level":"error","event":"E0000 00:00:1777598460.682833 3338740 instrument.cc:563] Metric with name 'grpc.resource_quota.calls_rejected' registered more than once. Ignoring later registration.","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.683130Z","level":"error","event":"E0000 00:00:1777598460.682836 3338740 instrument.cc:563] Metric with name 'grpc.resource_quota.connections_dropped' registered more than once. Ignoring later registration.","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.683153Z","level":"error","event":"E0000 00:00:1777598460.682838 3338740 instrument.cc:563] Metric with name 'grpc.resource_quota.instantaneous_memory_pressure' registered more than once. Ignoring later registration.","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:00.683178Z","level":"error","event":"E0000 00:00:1777598460.682839 3338740 instrument.cc:563] Metric with name 'grpc.resource_quota.memory_pressure_control_value' registered more than once. Ignoring later registration.","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:01.034394Z","level":"error","event":"26/05/01 10:21:01 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:01.034560Z","level":"error","event":"26/05/01 10:21:01 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.","logger":"task.stderr"}
+{"timestamp":"2026-05-01T01:21:01.932396Z","level":"warning","event":"The `airflow.operators.bash.BashOperator` attribute is deprecated. Please use `'airflow.providers.standard.operators.bash.BashOperator'`.","category":"DeprecatedImportWarning","filename":"/home/sharaq/airflow/dags/test_srppac.py","lineno":5,"logger":"py.warnings"}
+{"timestamp":"2026-05-01T01:21:01.933266Z","level":"info","event":"Stats instance was created in PID 3275077 but accessed in PID 3338740. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-05-01T01:21:02.734314Z","level":"info","event":"detectors ['sr91x', 'sr92x', 'src1x', 'src1y']","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:02.734398Z","level":"info","event":"colName is sr91x_id0 sr91x_charge0","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:02.740248Z","level":"info","event":"Processing sr91x with column x for sr91x_id0, y for sr91x_id0,range [(0, 94), (0, 100)], nbins (94, 100)","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.466750Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.466885Z","level":"info","event":"|bin_x|bin_y|z  |hist_name|x_bin|y_bin|","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.466931Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.466965Z","level":"info","event":"|16.0 |28.0 |1  |sr91x    |15.5 |27.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.466997Z","level":"info","event":"|33.0 |37.0 |1  |sr91x    |32.5 |36.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.467027Z","level":"info","event":"|35.0 |27.0 |1  |sr91x    |34.5 |26.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.467057Z","level":"info","event":"|37.0 |11.0 |1  |sr91x    |36.5 |10.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.467086Z","level":"info","event":"|43.0 |41.0 |1  |sr91x    |42.5 |40.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.467116Z","level":"info","event":"|43.0 |42.0 |1  |sr91x    |42.5 |41.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.467146Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.467175Z","level":"info","event":"only showing top 6 rows","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.467204Z","level":"info","event":"colName is sr92x_id0 sr92x_charge0","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.467233Z","level":"info","event":"Processing sr92x with column x for sr92x_id0, y for sr92x_id0,range [(0, 94), (0, 100)], nbins (94, 100)","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872123Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872224Z","level":"info","event":"|bin_x|bin_y|z  |hist_name|x_bin|y_bin|","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872246Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872261Z","level":"info","event":"|7.0  |29.0 |1  |sr92x    |6.5  |28.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872278Z","level":"info","event":"|26.0 |31.0 |1  |sr92x    |25.5 |30.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872290Z","level":"info","event":"|31.0 |30.0 |1  |sr92x    |30.5 |29.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872302Z","level":"info","event":"|31.0 |43.0 |1  |sr92x    |30.5 |42.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872314Z","level":"info","event":"|33.0 |17.0 |1  |sr92x    |32.5 |16.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872327Z","level":"info","event":"|33.0 |38.0 |1  |sr92x    |32.5 |37.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872347Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872361Z","level":"info","event":"only showing top 6 rows","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872376Z","level":"info","event":"colName is src1x_id0 src1x_charge0","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:04.872390Z","level":"info","event":"Processing src1x with column x for src1x_id0, y for src1x_id0,range [(0, 94), (0, 100)], nbins (94, 100)","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234159Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234289Z","level":"info","event":"|bin_x|bin_y|z  |hist_name|x_bin|y_bin|","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234331Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234366Z","level":"info","event":"|25.0 |37.0 |1  |src1x    |24.5 |36.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234404Z","level":"info","event":"|25.0 |41.0 |1  |src1x    |24.5 |40.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234435Z","level":"info","event":"|26.0 |41.0 |1  |src1x    |25.5 |40.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234470Z","level":"info","event":"|28.0 |36.0 |1  |src1x    |27.5 |35.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234499Z","level":"info","event":"|28.0 |41.0 |1  |src1x    |27.5 |40.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234528Z","level":"info","event":"|29.0 |32.0 |1  |src1x    |28.5 |31.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234557Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234592Z","level":"info","event":"only showing top 6 rows","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234623Z","level":"info","event":"colName is src1y_id0 src1y_charge0","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.234654Z","level":"info","event":"Processing src1y with column x for src1y_id0, y for src1y_id0,range [(0, 58), (0, 100)], nbins (58, 100)","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.475623Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.475743Z","level":"info","event":"|bin_x|bin_y|z  |hist_name|x_bin|y_bin|","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.475800Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.475836Z","level":"info","event":"|1.0  |56.0 |3  |src1y    |0.5  |55.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.475868Z","level":"info","event":"|1.0  |60.0 |1  |src1y    |0.5  |59.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.475900Z","level":"info","event":"|1.0  |61.0 |1  |src1y    |0.5  |60.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.475930Z","level":"info","event":"|1.0  |62.0 |2  |src1y    |0.5  |61.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.475960Z","level":"info","event":"|1.0  |63.0 |1  |src1y    |0.5  |62.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.475993Z","level":"info","event":"|1.0  |65.0 |3  |src1y    |0.5  |64.5 |","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.476025Z","level":"info","event":"+-----+-----+---+---------+-----+-----+","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:05.476057Z","level":"info","event":"only showing top 6 rows","logger":"task.stdout"}
+{"timestamp":"2026-05-01T01:21:06.301772Z","level":"info","event":"Done. Returned value was: {'data_path': '/home/sharaq/sh12s24/hist/srppac/run0094/id_vs_charge_0094.parquet', 'config_path': '/home/sharaq/sh12s24/hist/srppac/run0094/config_id_vs_charge.json'}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":229}
+{"timestamp":"2026-05-01T01:21:06.302003Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019de11f-945e-70fb-bc39-ecd24f9f8711'), task_id='make_id_charge_hist_task', dag_id='srppac_test_dag', run_id='manual__2026-05-01T01:20:36.424900+00:00', try_number=1, dag_version_id=UUID('019de11f-c0c8-76ec-b490-22cc787d0ef4'), map_index=-1, hostname='gpuana01', context_carrier={}, task=<Task(PythonOperator): make_id_charge_hist_task>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 5, 1, 1, 20, 59, 511234, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1573}

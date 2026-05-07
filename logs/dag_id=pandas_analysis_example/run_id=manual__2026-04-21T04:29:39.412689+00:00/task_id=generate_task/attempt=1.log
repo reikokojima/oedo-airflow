@@ -1,0 +1,12 @@
+{"timestamp":"2026-04-21T04:29:41.249172Z","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-04-21T04:29:41.249547Z","level":"info","event":"Filling up the DagBag from /home/sharaq/airflow/dags/pandas_analysis.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-04-21T04:29:41.498284Z","level":"info","event":"Stats instance was created in PID 2044793 but accessed in PID 2046008. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-04-21T04:29:41.516033Z","level":"info","event":"Generated Data:","logger":"task.stdout"}
+{"timestamp":"2026-04-21T04:29:41.519784Z","level":"info","event":"   product  sales","logger":"task.stdout"}
+{"timestamp":"2026-04-21T04:29:41.519838Z","level":"info","event":"0       A    100","logger":"task.stdout"}
+{"timestamp":"2026-04-21T04:29:41.519859Z","level":"info","event":"1       B    200","logger":"task.stdout"}
+{"timestamp":"2026-04-21T04:29:41.519875Z","level":"info","event":"2       A    150","logger":"task.stdout"}
+{"timestamp":"2026-04-21T04:29:41.519979Z","level":"info","event":"3       C    300","logger":"task.stdout"}
+{"timestamp":"2026-04-21T04:29:41.519993Z","level":"info","event":"4       B    250","logger":"task.stdout"}
+{"timestamp":"2026-04-21T04:29:41.520264Z","level":"info","event":"Done. Returned value was: {\"product\":{\"0\":\"A\",\"1\":\"B\",\"2\":\"A\",\"3\":\"C\",\"4\":\"B\"},\"sales\":{\"0\":100,\"1\":200,\"2\":150,\"3\":300,\"4\":250}}","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator","filename":"python.py","lineno":229}
+{"timestamp":"2026-04-21T04:29:41.520352Z","level":"info","event":"Pushing xcom","ti":"RuntimeTaskInstance(id=UUID('019dae4d-10f8-7190-84b7-7eedf119f977'), task_id='generate_task', dag_id='pandas_analysis_example', run_id='manual__2026-04-21T04:29:39.412689+00:00', try_number=1, dag_version_id=UUID('019dae4a-c601-7900-9bae-0e86831e0caa'), map_index=-1, hostname='gpuana01', context_carrier={}, task=<Task(PythonOperator): generate_task>, bundle_instance=LocalDagBundle(name=dags-folder), max_tries=0, start_date=datetime.datetime(2026, 4, 21, 4, 29, 40, 508927, tzinfo=datetime.timezone.utc), end_date=None, state=<TaskInstanceState.RUNNING: 'running'>, is_mapped=False, rendered_map_index=None)","logger":"task","filename":"task_runner.py","lineno":1573}

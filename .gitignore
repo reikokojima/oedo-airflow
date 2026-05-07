@@ -1,0 +1,6 @@
+/logs/
+/dags/__pycache__/
+/streamlit/__pycache__/
+/plugins/__pycache__/
+*.parquet
+
